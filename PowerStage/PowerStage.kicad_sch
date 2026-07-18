@@ -6221,7 +6221,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "415f8126-9c3f-4a0b-8b08-b29fde61c0f2")
 		(property "Reference" "R6"
 			(at 41.91 59.1819 0)
@@ -6229,7 +6228,7 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
@@ -6508,7 +6507,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_VH_B2P-VH_1x02_P3.96mm_Vertical"
 			(at 92.202 80.264 0)
 			(effects
 				(font
@@ -9913,7 +9912,8 @@
 	)
 	(symbol
 		(lib_id "Device:L")
-		(at 112.268 52.324 90)
+		(at 112.268 52.324 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9921,7 +9921,7 @@
 		(dnp no)
 		(uuid "fa446117-cbc2-47ff-a11d-48ea23aae037")
 		(property "Reference" "L1"
-			(at 112.522 47.752 90)
+			(at 112.014 47.752 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9929,7 +9929,7 @@
 			)
 		)
 		(property "Value" "47uH"
-			(at 112.522 50.292 90)
+			(at 112.014 50.292 90)
 			(effects
 				(font
 					(size 1.27 1.27)
