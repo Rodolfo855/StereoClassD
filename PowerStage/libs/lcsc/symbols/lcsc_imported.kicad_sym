@@ -556,4 +556,116 @@
     )
   )
 
+
+(symbol "MDA1365-470M"
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "L"
+      (at 0 1.27 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "MDA1365-470M"
+      (at 0 -2.54 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" "lcsc_footprints:C2847587_IND-SMD_L13_5-W12_6_TMPA1265SP-100MN-D"
+      (at 0 -10.16 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2401281855_KOHERelec-MDA1365-470M_C2847587.pdf"
+      (at -2.286 0.127 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "MDA1365-470M"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "LCSC" "C2847587"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Manufacturer" "KOHERelec(科或)"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "MDA1365-470M_1_1"
+      (pin unspecified line
+        (at 5.08 -0.0 180)
+        (length 1.016)
+        (name "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "2"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (pin unspecified line
+        (at -5.08 -0.0 0)
+        (length 1.016)
+        (name "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+        (number "1"
+          (effects
+            (font (size 1 1))
+          )
+        )
+      )
+      (arc
+        (start -4.0640081280162565 0.0050800101600157)
+        (mid -3.0429260857761014 1.0160020471432987)
+        (end -2.0320040640081283 -0.0050800101600157)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc
+        (start -2.0320040640081283 0.0050800101600157)
+        (mid -1.010922021767973 1.0160020471432987)
+        (end 0.0 -0.0050800101600157)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc
+        (start 2.0320040640081283 0.0050800101600157)
+        (mid 3.053086106248283 1.0160020471432987)
+        (end 4.0640081280162565 -0.0050800101600157)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+      (arc
+        (start 0.0 0.0050800101600157)
+        (mid 1.021082042240155 1.0160020471432987)
+        (end 2.0320040640081283 -0.0050800101600157)
+        (stroke (width 0) (type default) (color 0 0 0 0))
+        (fill (type none))
+      )
+    )
+  )
+
 )
