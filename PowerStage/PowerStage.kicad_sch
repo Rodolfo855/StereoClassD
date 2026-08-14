@@ -1694,6 +1694,183 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc_imported:470uF_16V"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "470uF 16V"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc_footprints:C3341_CAP-SMD_BD8_0-L8_3-W8_3-FD"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Honor-Elec-RVT1C471M0810_C3341.pdf"
+				(at -2.286 0.127 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "470uF 16V"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C3341"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "HONOR(荣誉)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "470uF_16V_1_1"
+				(polyline
+					(pts
+						(xy -2.54 0.762) (xy -1.524 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 1.27) (xy -2.032 0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.508 2.032) (xy -0.508 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 1.2065 -1.8263)
+					(mid 0.5093 0.0849)
+					(end 1.3259 1.9482)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1 1)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "lcsc_imported:IRFB4227PBF"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3261,6 +3438,12 @@
 		(uuid "eca4b668-bf4b-43e1-a456-9a6f7a228237")
 	)
 	(junction
+		(at 154.686 32.258)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a4bf72e-dadd-4907-a475-031c5d1dd4d4")
+	)
+	(junction
 		(at 165.1 44.196)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3271,12 +3454,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "103b1875-1957-43fc-9830-6e8dc4c944db")
-	)
-	(junction
-		(at 100.838 32.258)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "10667364-54a3-4ed5-ba03-c83da5b04b51")
 	)
 	(junction
 		(at 59.944 64.516)
@@ -3447,6 +3624,12 @@
 		(uuid "c186ac7f-0226-43bd-8e3e-66e13b3ae9d2")
 	)
 	(junction
+		(at 100.838 30.226)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5f3d67b-521e-4bc8-9160-4e9f6c43ef8e")
+	)
+	(junction
 		(at 211.582 54.864)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3457,12 +3640,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb653b1e-6ac7-49fd-be44-eded8d217294")
-	)
-	(junction
-		(at 154.686 32.258)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4bd7f66-c05e-4562-8afb-338afc447335")
 	)
 	(junction
 		(at 88.646 40.386)
@@ -3573,6 +3750,16 @@
 			(type default)
 		)
 		(uuid "090921df-bc4d-4fc3-bcba-232a0259f1a5")
+	)
+	(wire
+		(pts
+			(xy 129.286 32.258) (xy 134.874 32.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09d03d95-4768-4a17-bd2e-bb744230e9e1")
 	)
 	(wire
 		(pts
@@ -3716,6 +3903,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.686 32.258) (xy 154.686 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c310bb1-5d76-4e59-b6a1-e7fbc8e5c181")
+	)
+	(wire
+		(pts
 			(xy 216.916 54.864) (xy 216.916 57.15)
 		)
 		(stroke
@@ -3836,16 +4033,6 @@
 	)
 	(wire
 		(pts
-			(xy 100.838 32.258) (xy 100.838 33.528)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27adb946-8b4f-4153-843d-ef64bb0b2b57")
-	)
-	(wire
-		(pts
 			(xy 165.1 44.196) (xy 165.1 36.322)
 		)
 		(stroke
@@ -3866,7 +4053,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.686 34.29) (xy 154.686 32.258)
+			(xy 154.686 27.94) (xy 154.686 32.258)
 		)
 		(stroke
 			(width 0)
@@ -3913,16 +4100,6 @@
 			(type default)
 		)
 		(uuid "3181059c-a0b9-42a7-8dc1-a04a8fda2961")
-	)
-	(wire
-		(pts
-			(xy 154.686 27.94) (xy 154.686 32.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "31dd2156-7402-4d04-abe3-e5a25a9d4257")
 	)
 	(wire
 		(pts
@@ -4036,6 +4213,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.538 30.226) (xy 120.904 30.226)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f2211e-121d-4cb1-b74e-bf499baaea52")
+	)
+	(wire
+		(pts
 			(xy 97.282 109.474) (xy 101.092 109.474)
 		)
 		(stroke
@@ -4133,6 +4320,16 @@
 			(type default)
 		)
 		(uuid "66eb10ac-9d71-4bff-9080-aa4a6063b3a7")
+	)
+	(wire
+		(pts
+			(xy 100.838 30.226) (xy 100.838 33.528)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67c59f48-9d31-41b5-b90c-3c78cac62a14")
 	)
 	(wire
 		(pts
@@ -4416,6 +4613,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.838 30.226) (xy 105.918 30.226)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8cab3dd0-8098-4f35-81eb-d52171fd5f85")
+	)
+	(wire
+		(pts
 			(xy 207.264 54.864) (xy 211.582 54.864)
 		)
 		(stroke
@@ -4626,7 +4833,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.838 27.686) (xy 100.838 32.258)
+			(xy 100.838 27.686) (xy 100.838 30.226)
 		)
 		(stroke
 			(width 0)
@@ -4656,16 +4863,6 @@
 	)
 	(wire
 		(pts
-			(xy 112.522 32.258) (xy 120.904 32.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb45b067-57a1-4f32-8859-91a130cdea60")
-	)
-	(wire
-		(pts
 			(xy 166.37 56.388) (xy 162.306 56.388)
 		)
 		(stroke
@@ -4676,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.904 32.258) (xy 120.904 36.068)
+			(xy 120.904 30.226) (xy 120.904 36.068)
 		)
 		(stroke
 			(width 0)
@@ -4896,6 +5093,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.494 32.258) (xy 154.686 32.258)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d60034ee-1acf-4efb-86f2-bb9c5eeeb5fa")
+	)
+	(wire
+		(pts
 			(xy 69.342 44.704) (xy 69.342 43.942)
 		)
 		(stroke
@@ -4903,26 +5110,6 @@
 			(type default)
 		)
 		(uuid "d75669af-1afc-45c8-9ba9-429c9a68f9a1")
-	)
-	(wire
-		(pts
-			(xy 141.224 32.258) (xy 154.686 32.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7c5c1c5-81af-4241-8f46-883a8e699f36")
-	)
-	(wire
-		(pts
-			(xy 100.838 32.258) (xy 107.442 32.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da37ccb1-1c91-433c-9047-8c93607dad98")
 	)
 	(wire
 		(pts
@@ -5073,16 +5260,6 @@
 			(type default)
 		)
 		(uuid "ebeeec3d-3eb6-4c85-b21c-4f048e3051f3")
-	)
-	(wire
-		(pts
-			(xy 129.286 32.258) (xy 136.144 32.258)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec24212b-99ce-48ab-8570-5376cdcf8199")
 	)
 	(wire
 		(pts
@@ -6709,42 +6886,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 109.982 32.258 90)
+		(lib_id "lcsc_imported:470uF_16V")
+		(at 109.728 30.226 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "332db82e-9b40-42ec-89fd-0d56c0fa85dc")
+		(uuid "361f2a6c-4883-4231-8686-699fa947280c")
 		(property "Reference" "C2"
-			(at 109.4359 26.416 90)
+			(at 109.1209 23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "470uF"
-			(at 109.4359 28.956 90)
+		(property "Value" "470uF 16V"
+			(at 109.1209 25.908 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
-			(at 109.982 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 109.982 32.258 0)
+		(property "Footprint" "lcsc_footprints:C3341_CAP-SMD_BD8_0-L8_3-W8_3-FD"
+			(at 109.728 40.386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6752,8 +6920,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 109.982 32.258 0)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Honor-Elec-RVT1C471M0810_C3341.pdf"
+			(at 107.442 30.099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470uF 16V"
+			(at 109.728 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3341"
+			(at 109.728 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HONOR(荣誉)"
+			(at 109.728 30.226 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6762,10 +6957,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "8bc5b50e-018b-4aff-bf92-11e86a547db9")
+			(uuid "2cc271be-6587-4f76-b2d0-f403f6b4fe5a")
 		)
 		(pin "1"
-			(uuid "6dcdae9f-953f-42eb-8164-aa02fb1a78e0")
+			(uuid "cff82aaa-6016-43ab-8e56-380a5935cf8c")
 		)
 		(instances
 			(project ""
@@ -8953,74 +9148,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 138.684 32.258 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aabf9fc9-a827-4acb-af5a-86d113cda788")
-		(property "Reference" "C3"
-			(at 139.2301 26.416 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470uf"
-			(at 139.2301 28.956 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D12.5mm_P5.00mm"
-			(at 138.684 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 138.684 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 138.684 32.258 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0446053-f85e-4f42-b9cc-80fe13415776")
-		)
-		(pin "1"
-			(uuid "014c654f-5b37-4727-af07-a2b2d18dee4c")
-		)
-		(instances
-			(project "PowerStage"
-				(path "/35e7ada8-13ff-43aa-b843-352fc42c8474"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 44.196 59.436 0)
 		(unit 1)
@@ -10873,6 +11000,92 @@
 			(project "PowerStage"
 				(path "/35e7ada8-13ff-43aa-b843-352fc42c8474"
 					(reference "#PWR031")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc_imported:470uF_16V")
+		(at 138.684 32.258 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb460e0a-990c-4ef9-a277-709d50a95600")
+		(property "Reference" "C3"
+			(at 139.291 25.654 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "470uF 16V"
+			(at 139.291 28.194 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc_footprints:C3341_CAP-SMD_BD8_0-L8_3-W8_3-FD"
+			(at 138.684 22.098 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2304140030_Honor-Elec-RVT1C471M0810_C3341.pdf"
+			(at 140.97 32.385 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "470uF 16V"
+			(at 138.684 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3341"
+			(at 138.684 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "HONOR(荣誉)"
+			(at 138.684 32.258 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f224d1e8-873c-406d-a262-82e53f4dfcb1")
+		)
+		(pin "1"
+			(uuid "ec04e520-07ba-4f42-8b6b-2cabb3311c08")
+		)
+		(instances
+			(project "PowerStage"
+				(path "/35e7ada8-13ff-43aa-b843-352fc42c8474"
+					(reference "C3")
 					(unit 1)
 				)
 			)
