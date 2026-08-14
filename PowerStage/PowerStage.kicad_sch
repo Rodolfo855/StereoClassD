@@ -3435,7 +3435,7 @@
 		(uuid "a3eec79b-b18c-4065-b7e9-245d5287fb8c")
 	)
 	(junction
-		(at 154.686 52.324)
+		(at 154.94 52.07)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bdc58043-955d-42fb-84ae-1483104b3e9b")
@@ -4166,7 +4166,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.686 52.324) (xy 154.686 59.69)
+			(xy 154.94 52.07) (xy 154.686 59.69)
 		)
 		(stroke
 			(width 0)
@@ -4326,7 +4326,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.686 52.324) (xy 162.56 52.324)
+			(xy 154.94 52.07) (xy 162.56 52.324)
 		)
 		(stroke
 			(width 0)
@@ -4526,7 +4526,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.686 49.276) (xy 154.686 52.324)
+			(xy 154.686 49.276) (xy 154.94 52.07)
 		)
 		(stroke
 			(width 0)
@@ -8467,7 +8467,8 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 124.968 47.244 90)
+		(at 124.968 47.244 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8483,7 +8484,7 @@
 			)
 		)
 		(property "Value" "680nF"
-			(at 125.222 44.45 90)
+			(at 124.714 44.45 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10468,7 +10469,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "dbf3709a-2784-48eb-82ad-752e2324bb1b")
 		(property "Reference" "L2"
 			(at 142.24 45.72 0)
