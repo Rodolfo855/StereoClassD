@@ -2104,7 +2104,7 @@
 		(at 146.05 76.2)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "SWN-2"
+		(property "Reference" "GQ4"
 			(at 0.635 -2.75 0)
 			(layer "F.SilkS")
 			(uuid "f47a59a3-b3ab-4c8a-91ab-2581f7d3c3fd")
@@ -2242,7 +2242,7 @@
 		(at 71.755 43.18)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP3"
+		(property "Reference" "GQ2"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
 			(uuid "34e07e25-5d60-4bcd-a511-dad86b6ce16f")
@@ -11712,7 +11712,7 @@
 		(at 64.77 43.18)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP1"
+		(property "Reference" "GQ1"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
 			(uuid "08cce31d-7677-4c6f-bac3-f2ed0f003d96")
@@ -12968,7 +12968,7 @@
 		(at 126.365 73.66)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP6"
+		(property "Reference" "SWN-2"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
 			(uuid "b1fc9302-a379-4cf4-85a2-c071a3a517b4")
@@ -15217,7 +15217,7 @@
 		(layer "F.Cu")
 		(uuid "ac907c7b-7670-498e-9adc-3ffc4957e9cc")
 		(at 57.785 78.74)
-		(property "Reference" "SW1"
+		(property "Reference" "ON<>OFF"
 			(at 0 3.81 0)
 			(layer "F.SilkS")
 			(uuid "202c281a-4c35-497b-9136-c7bd43270c59")
@@ -15917,7 +15917,7 @@
 		(at 78.74 43.18)
 		(descr "Keystone THM Multipurpose Test Point 5010-5014, http://www.keyelco.com/product-pdf.cfm?p=1319")
 		(tags "Through Hole Mount Test Points")
-		(property "Reference" "TP9"
+		(property "Reference" "GND"
 			(at 0 -2.75 0)
 			(layer "F.SilkS")
 			(uuid "0f8f5414-ba07-4fce-82f1-6c547b59bbc0")
@@ -19152,7 +19152,7 @@
 		(layer "F.Cu")
 		(uuid "e4de30d5-c62c-453a-a802-7ee6457474d7")
 		(at 175.26 78.535)
-		(property "Reference" "SW2"
+		(property "Reference" "ON<>OFF"
 			(at 0 3.605 0)
 			(layer "F.SilkS")
 			(uuid "83acc856-9dc7-473b-a268-4b0ce7ccaa8e")
