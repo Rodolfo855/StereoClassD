@@ -5648,7 +5648,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 162.56 53.594 0)
 			(effects
 				(font
@@ -5668,6 +5668,15 @@
 		)
 		(property "Description" "test point"
 			(at 162.56 48.514 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5277086"
+			(at 162.56 48.514 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5946,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 95.25 59.69 0)
 			(effects
 				(font
@@ -5964,6 +5973,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5277086"
+			(at 95.25 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c819c6f3-8ca9-43cc-b43f-0168e1d34e04")
 		)
@@ -5981,7 +5999,7 @@
 		(at 126.238 64.262 270)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -6098,6 +6116,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C330941"
+			(at 204.978 31.242 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3212bbc4-4804-4d9a-9940-e619f0dcfba1")
 		)
@@ -6197,7 +6224,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "1uF"
 			(at 178.054 48.006 0)
 			(effects
 				(font
@@ -6225,6 +6252,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 186.182 48.006 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C330941"
 			(at 186.182 48.006 0)
 			(effects
 				(font
@@ -6275,7 +6311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 173.99 35.052 0)
 			(effects
 				(font
@@ -6295,6 +6331,15 @@
 		)
 		(property "Description" "test point"
 			(at 173.99 29.972 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5277086"
+			(at 173.99 29.972 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6341,7 +6386,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 127.254 93.218 0)
 			(effects
 				(font
@@ -6361,6 +6406,15 @@
 		)
 		(property "Description" "test point"
 			(at 127.254 88.138 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5277086"
+			(at 127.254 88.138 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6538,7 +6592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 88.646 43.18 0)
 			(effects
 				(font
@@ -6558,6 +6612,15 @@
 		)
 		(property "Description" "test point"
 			(at 88.646 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5277086"
+			(at 88.646 38.1 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6927,7 +6990,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C3341_CAP-SMD_BD8_0-L8_3-W8_3-FD"
+		(property "Footprint" "lcsc_footprints:C46550425_CAP-TH_BD10_0-P5_00-D0_6-FD-A"
 			(at 109.728 40.386 0)
 			(effects
 				(font
@@ -6954,7 +7017,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3341"
+		(property "LCSC" "C2837182"
 			(at 109.728 30.226 0)
 			(effects
 				(font
@@ -7033,6 +7096,15 @@
 		)
 		(property "Description" "Polarized capacitor, small symbol"
 			(at 50.546 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C330941"
+			(at 50.546 30.734 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7245,7 +7317,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 162.306 51.308 0)
 			(effects
 				(font
@@ -7265,6 +7337,15 @@
 		)
 		(property "Description" "test point"
 			(at 162.306 56.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5277086"
+			(at 162.306 56.388 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 88.138 60.96 0)
 			(effects
 				(font
@@ -7331,6 +7412,15 @@
 		)
 		(property "Description" "test point"
 			(at 88.138 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5277086"
+			(at 88.138 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7559,6 +7649,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 93.472 33.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "97bc0d93-2673-4597-bead-e36cd1a60af7")
 		)
@@ -7580,7 +7679,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "4e402b07-1d23-426c-8050-8c9d9d8af448")
@@ -7686,6 +7785,15 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 83.82 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16588"
 			(at 83.82 64.77 0)
 			(effects
 				(font
@@ -7861,6 +7969,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C16588"
+			(at 70.358 36.576 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "dfa1d0dc-e2f9-48ac-a334-c52e91a88b2b")
 		)
@@ -7882,7 +7999,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8390,6 +8507,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C16588"
+			(at 186.182 31.242 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3c2703d4-2b89-4938-945e-3934e6005ded")
 		)
@@ -8457,6 +8583,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 161.544 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "970ba6a7-1731-4e0e-ae4f-1881c28b2168")
 		)
@@ -8478,7 +8613,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -8596,6 +8731,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 171.958 36.322 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "29ee8f83-f3dc-4db7-b494-0c9f1cba454d")
 		)
@@ -8682,7 +8826,7 @@
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "89a9d51a-73f2-4b9e-b504-bf7ca9a2f2b6")
@@ -9217,6 +9361,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 44.196 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "837d4102-11ef-4a5f-ad85-3f49af9c8315")
 		)
@@ -9259,7 +9412,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 186.69 57.404 0)
 			(effects
 				(font
@@ -9278,6 +9431,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 186.69 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1669449"
 			(at 186.69 57.404 0)
 			(effects
 				(font
@@ -9618,6 +9780,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17902"
+			(at 38.862 59.182 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a8d09202-a815-4be2-875d-a65a4296dca4")
 		)
@@ -9790,7 +9961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.80mm"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm"
 			(at 68.326 62.484 0)
 			(effects
 				(font
@@ -9809,6 +9980,15 @@
 			)
 		)
 		(property "Description" "Polarized capacitor, small symbol"
+			(at 68.326 62.484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1669449"
 			(at 68.326 62.484 0)
 			(effects
 				(font
@@ -9884,6 +10064,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C16588"
+			(at 171.958 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1ab20c5-6c47-424e-806f-21c95ba479c2")
 		)
@@ -9943,6 +10132,15 @@
 			)
 		)
 		(property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+			(at 83.82 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C16588"
 			(at 83.82 44.45 0)
 			(effects
 				(font
@@ -10039,7 +10237,7 @@
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(uuid "cbc25eb3-fd4e-4e50-ac3f-acb252ad748e")
@@ -10167,7 +10365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 89.408 54.102 0)
 			(effects
 				(font
@@ -10187,6 +10385,15 @@
 		)
 		(property "Description" "test point"
 			(at 89.408 49.022 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5277086"
+			(at 89.408 49.022 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10297,7 +10504,7 @@
 		(at 56.896 49.784 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -10453,6 +10660,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C24497"
+			(at 216.916 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "336e605a-46bb-4f6b-b8de-1cc418d5f705")
 		)
@@ -10522,6 +10738,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17902"
+			(at 211.582 59.436 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0767e2f4-d14f-458c-968e-3fdee40e4283")
 		)
@@ -10582,6 +10807,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 171.958 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 171.958 57.404 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10875,6 +11109,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C330941"
+			(at 70.358 47.752 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8dd467e-29e2-4ae9-a00a-71a2052073a1")
 		)
@@ -11047,7 +11290,7 @@
 				)
 			)
 		)
-		(property "Footprint" "lcsc_footprints:C3341_CAP-SMD_BD8_0-L8_3-W8_3-FD"
+		(property "Footprint" "lcsc_footprints:C46550425_CAP-TH_BD10_0-P5_00-D0_6-FD-A"
 			(at 138.684 22.098 0)
 			(effects
 				(font
@@ -11074,7 +11317,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C3341"
+		(property "LCSC" "C2837182"
 			(at 138.684 32.258 0)
 			(effects
 				(font
@@ -11446,6 +11689,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C17903"
+			(at 83.82 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "02a64681-6ce8-483f-a2d6-3056fe992c39")
 		)
@@ -11507,6 +11759,15 @@
 		)
 		(property "Description" "Resistor, small US symbol"
 			(at 83.566 40.386 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C17903"
+			(at 83.566 40.386 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11711,6 +11972,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C16588"
+			(at 171.704 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0159e311-27c9-451f-8df6-c502f814e3f5")
 		)
@@ -11753,7 +12023,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Keystone_5010-5014_Multipurpose"
+		(property "Footprint" "lcsc_footprints:C5277086_TEST-TH_BD2_54-P1_4_RED"
 			(at 161.29 76.962 0)
 			(effects
 				(font
@@ -11773,6 +12043,15 @@
 		)
 		(property "Description" "test point"
 			(at 161.29 71.882 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C5277086"
+			(at 161.29 71.882 90)
 			(effects
 				(font
 					(size 1.27 1.27)
